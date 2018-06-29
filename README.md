@@ -45,11 +45,11 @@ The syntax is **really** basic:
 
 ### XOXO <-> SC
 
-A `*:synth:xoxoxo:*` Pattern by itself won't play anything because basically it's just a Function (`x.at(\languages).at(\xoxo)`), so as we would do with any other Function, we need to call it passing the whole `x` Event, which will return the `event` which we will access thorugh the `.xo` key.
+A `*:synth:xoxoxo:*` Pattern by itself won't play anything because basically it's just a Function (`x.at(\languages).at(\xoxo)`), so as we would do with any other Function, we need to call it passing the whole `x` Event, which will return the Event with a new `.xo` key (the Pbind).
 
 ```
             .-------------------------> 1. xoxo pattern
-           /         .----------------> 2. call it passing `x` Dict with this tiny lang implementation,
+           /         .----------------> 2. call it passing `x` Event with this tiny lang implementation,
           /         /      .----------> 3. we get an Event with a `xo` key (which cointains the Pbind)
          /         /      /   .-------> 4. Pbind.play
         /         /      /   /
