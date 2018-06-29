@@ -1,0 +1,1 @@
+this.preProcessor=PreProcessor.new.startDelimiter_("*:").endDelimiter_(":*");x=(lang:\xoxo,languages:(xoxo:{|c,e|var v=c.split($:),o=Pbind(\amp,Pseq(v[1].asList.collect{|q|(q.asString=="x").binaryValue},inf),\instrument,v[0].asSymbol,\dur,1/4);e.put(\xo,o)}))
