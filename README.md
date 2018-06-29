@@ -53,7 +53,7 @@ A `*:synth:xoxoxo:*` Pattern by itself won't play anything because basically it'
           /         /      .----------> 3. we get an Event with a `xo` key (which cointains the Pbind)
          /         /      /   .-------> 4. Pbind.play
         /         /      /   /
-,------------,,-------,,-,,---,
+,------------,,--------,,-,,---,
 *:synth:xoxo:*.value(x).xo.play;
 ```
 
