@@ -70,7 +70,7 @@ A `*:synth:xoxoxo:*` Pattern by itself won't play anything because basically it'
 
 ### BRING YOUR OWN SYNTHS
 
-This _language_ doesn't provide SynthDef because I assume you already have some stored and loaded.  
+This _language_ doesn't provide SynthDefs because I assumed you already have some stored and loaded.  
 If by chance you don't have any, you can use [these provided by @hordiales](https://github.com/lvm/xoxo/issues/2).
 
 ## LICENSE 
