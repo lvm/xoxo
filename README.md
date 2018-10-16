@@ -17,9 +17,9 @@ x = (
       `event` is the current event
       */
       // So, it splits the string to obtain...
-      var values = c.split($:);
+      var values = code.split($:);
       // which synthdef to play
-      var instrument = v[0].asSymbol;
+      var instrument = values[0].asSymbol;
       // and when to play, translating 'xoxo' to '[1,0,1,0]' which is used by the `\amp` key.
       var pattern = values.at(1).asList.collect{ |xo| (xo.asString == "x").binaryValue }; 
       // then we put everything together in a Pbind
